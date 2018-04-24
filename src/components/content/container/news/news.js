@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../css/content/news/news.css"
+import "../../../../css/content/container/news/news.css"
 
 export default class News extends React.Component{
     render(){
