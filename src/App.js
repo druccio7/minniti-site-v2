@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import MainTemplate from "./components/mainLayout/template/mainTemplate";
-import Home from "./components/content/home/home";
-import News from "./components/content/news/news"
-import About from "./components/content/about/about"
-import Contact from "./components/content/contact/contact"
+import Home from "./components/content/container/home/home";
+import News from "./components/content/container/news/news"
+import About from "./components/content/container/about/about"
+import Contact from "./components/content/container/contact/contact"
 
 class App extends Component {
   render() {

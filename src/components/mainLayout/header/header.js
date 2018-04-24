@@ -32,7 +32,6 @@ export default class Header extends React.Component{
     }
 
     render(){
-        console.log(this.props);
         return(
             <div id="header" className="header" style={ { opacity: this.state.opacity, transition: this.state.transition } }>
                 <div className="topnav">
