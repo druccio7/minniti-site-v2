@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import MainTemplate from "./components/mainLayout/template/mainTemplate";
 import Home from "./components/content/home/home";
 import News from "./components/content/news/news"
+import About from "./components/content/about/about"
+import Contact from "./components/content/contact/contact"
 
 class App extends Component {
   render() {
@@ -12,8 +14,8 @@ class App extends Component {
                   <Switch>
                       <Route exact path='/' component={Home}/>
                       <Route exact path='/news' component={News}/>
-                      <Route exact path='/about' component={Home}/>
-                      <Route exact path='/contact' component={Home}/>
+                      <Route exact path='/about' component={About}/>
+                      <Route exact path='/contact' component={Contact}/>
                   </Switch>
               </MainTemplate>
           </BrowserRouter>
