@@ -9,14 +9,14 @@ export default class MainTemplate extends React.Component{
     render(){
         return(
             <div id="divContenentHaderContentFooter">
-                {/*<Header/>*/}
-                {/*<div id="Content">*/}
-                    {/*/!*<PreContainer/>*!/*/}
-                    {/*<div id="Container">*/}
-                        {/*{this.props.children}*/}
-                    {/*</div>*/}
-                {/*</div>*/}
-                {/*<Footer/>*/}
+                <Header/>
+                <div id="Content">
+                    {/*<PreContainer/>*/}
+                    <div id="Container">
+                        {this.props.children}
+                    </div>
+                </div>
+                <Footer/>
             </div>
         );
     }

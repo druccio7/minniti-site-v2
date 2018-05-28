@@ -2,7 +2,7 @@
 .header {
     width: 100%;
     /*background-color:#333;*/
-    /*height:9em;*/
+    height: 60px;
     top: 0;
     position: fixed;
     z-index: 1;
@@ -13,6 +13,7 @@
 @media screen and (max-width: 800px){
     .topnav {
         width: 30.5%;
+        height: 100%;
         overflow: hidden;
         background-color:#333;
         border-bottom: solid 1px #000000;
@@ -21,6 +22,7 @@
 @media screen and (min-width: 800px){
     .topnav {
         width: 30.5%;
+        height: 100%;
         overflow: hidden;
         background-color:#333;
         border-bottom: solid 1px #000000;
@@ -28,15 +30,43 @@
 }
 
 .topnav a {
+    height: 100%;
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    /*padding: 3% 5%;*/
     text-decoration: none;
     /*font-size: 17px;*/
 }
-
+.mHome {
+    width: 17%;
+}
+.mNews {
+    width: 28%;
+}
+.mContact {
+    width: 28%;
+}
+.mAbout {
+    width: 26.8%;
+}
+.mHome a {
+    height: 100%;
+    width: 100%;
+}
+.mNews a {
+    height: 100%;
+    width: 100%;
+}
+.mContact a {
+    height: 100%;
+    width: 100%;
+}
+.mAbout a {
+    height: 100%;
+    width: 100%;
+}
 .topnav a:hover {
     background-color: #ddd;
     color: #333;
@@ -49,6 +79,7 @@
 }
 .mHome, .mNews, .mContact, .mAbout {
     transition: 0.5s;
+
 }
 
 .topnav a.active {
