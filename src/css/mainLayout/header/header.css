@@ -35,9 +35,8 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    /*padding: 3% 5%;*/
+    font-weight: 700;
     text-decoration: none;
-    /*font-size: 17px;*/
 }
 .mHome {
     width: 17%;
@@ -54,18 +53,22 @@
 .mHome a {
     height: 100%;
     width: 100%;
+    padding-top: 18%;
 }
 .mNews a {
     height: 100%;
     width: 100%;
+    padding-top: 12%;
 }
 .mContact a {
     height: 100%;
     width: 100%;
+    padding-top: 12%;
 }
 .mAbout a {
     height: 100%;
     width: 100%;
+    padding-top: 12%;
 }
 .topnav a:hover {
     background-color: #ddd;
