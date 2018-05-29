@@ -154,7 +154,7 @@ a {
 }
 
 /* pop-up text */
-a span {
+div.footer-social-icons a span {
     color:#666;
     position:absolute;
     font-family:sans-serif;
@@ -175,7 +175,7 @@ a span {
 }
 
 /* pop-up text arrow */
-a span:before {
+div.footer-social-icons a span:before {
     content:'';
     width: 0;
     height: 0;
@@ -188,7 +188,7 @@ a span:before {
 }
 
 /* text pops up when icon is in hover state */
-a:hover span {
+div.footer-social-icons a:hover span {
     bottom:50px;
     visibility:visible;
     opacity:1;
@@ -201,4 +201,13 @@ a:hover span {
 }
 .cv h4{
     text-align: center;
+}
+
+.footerCV-button{
+    margin: auto;
+    width: 207px;
+}
+
+div.footerCV-button a{
+    padding:2px;
 }

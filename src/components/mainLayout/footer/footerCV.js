@@ -6,7 +6,10 @@ export default class FooterCV extends React.Component{
         return(
             <div className="cv col-md-4">
                 <h4>Scarica il mio CV!</h4>
-                <a href="#" className="btn btn-sm btn-success"><span className="glyphicon glyphicon-download"></span> Download</a>
+                <div className="footerCV-button">
+                    <a href="#" className="btn btn-sm btn-success">Download <span className="glyphicon glyphicon-download-alt"></span></a>
+                    <a href="#" className="btn btn-sm btn-info">Guarda Online <span className="glyphicon glyphicon-search"></span></a>
+                </div>
             </div>
         );
     }
