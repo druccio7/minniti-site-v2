@@ -75,11 +75,10 @@ div#footer p{color:#fff;font-family:Lato,"Helvetica Neue",Arial,sans-serif;}
     color: #fff;
 }
 ul.social-icons {
-    width: 171px;
-    height: 100%;
-    margin: auto;
     padding-left: 0;
-
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 1%;
 }
 .social-icons li {
     vertical-align: top;
@@ -204,10 +203,11 @@ div.footer-social-icons a:hover span {
 }
 
 .footerCV-button{
-    margin: auto;
-    width: 207px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
 }
 
-div.footerCV-button a{
-    padding:2px;
+div.footerCV-button button{
+    margin:2px;
 }

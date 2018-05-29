@@ -35,10 +35,10 @@ export default class Header extends React.Component{
         return(
             <div id="header" className="header" style={ { opacity: this.state.opacity, transition: this.state.transition } }>
                 <div className="topnav">
-                    <a className={this.state.activeHome ? "mHome active" : "mHome"} onClick={this.changeState.bind(this,'home')}><Link to="/">Home</Link></a>
-                    <a className={this.state.activeNews ? "mNews active" : "mNews"} onClick={this.changeState.bind(this,'news')}><Link to="/news">Le mie novità</Link></a>
-                    <a className={this.state.activeAbout ? "mAbout active" : "mAbout"} onClick={this.changeState.bind(this,'about')}><Link to="/about">La mia storia</Link></a>
-                    <a className={this.state.activeContact ? "mContact active" : "mContact"} onClick={this.changeState.bind(this,'contact')}><Link to="/contact">Curriculum</Link></a>
+                    <Link className={this.state.activeHome ? "mHome active" : "mHome"} onClick={this.changeState.bind(this,'home')} to="/">Home</Link>
+                    <Link className={this.state.activeNews ? "mNews active" : "mNews"} onClick={this.changeState.bind(this,'news')} to="/news">Le mie novità</Link>
+                    <Link className={this.state.activeAbout ? "mAbout active" : "mAbout"} onClick={this.changeState.bind(this,'about')} to="/about">La mia storia</Link>
+                    <Link className={this.state.activeContact ? "mContact active" : "mContact"} onClick={this.changeState.bind(this,'contact')} to="/contact">Curriculum</Link>
                 </div>
             </div>
         );

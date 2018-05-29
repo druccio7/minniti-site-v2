@@ -40,36 +40,40 @@
 }
 .mHome {
     width: 17%;
+    padding-top: 3%;
 }
 .mNews {
     width: 28%;
+    padding-top: 3%;
 }
 .mContact {
     width: 28%;
+    padding-top: 3%;
 }
 .mAbout {
     width: 26.8%;
+    padding-top: 3%;
 }
-.mHome a {
-    height: 100%;
-    width: 100%;
-    padding-top: 18%;
-}
-.mNews a {
-    height: 100%;
-    width: 100%;
-    padding-top: 12%;
-}
-.mContact a {
-    height: 100%;
-    width: 100%;
-    padding-top: 12%;
-}
-.mAbout a {
-    height: 100%;
-    width: 100%;
-    padding-top: 12%;
-}
+/*.mHome a {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding-top: 18%;*/
+/*}*/
+/*.mNews a {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding-top: 12%;*/
+/*}*/
+/*.mContact a {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding-top: 12%;*/
+/*}*/
+/*.mAbout a {*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding-top: 12%;*/
+/*}*/
 .topnav a:hover {
     background-color: #ddd;
     color: #333;
