@@ -22,10 +22,10 @@ div#footer p{color:#fff;font-family:Lato,"Helvetica Neue",Arial,sans-serif;}
     overflow: hidden;
 }
 
-.myScrollbar::-webkit-scrollbar{
+div#footer .myScrollbar::-webkit-scrollbar{
     width: 8px;
 }
-.myScrollbar.thin::-webkit-scrollbar{
+div#footer .myScrollbar.thin::-webkit-scrollbar{
     width: 2px;
 }
 
@@ -39,18 +39,18 @@ div#footer p{color:#fff;font-family:Lato,"Helvetica Neue",Arial,sans-serif;}
 
 
 /*====== ABOUT ======*/
-.about{
+div#footer .about{
     height: 100%;
     float: left;
     overflow: hidden;
     overflow-y: auto;
 }
 
-.about h4{
+div#footer .about h4{
     text-align: center;
 }
 
-.about p{
+div#footer .about p{
     font-size:14px;
     line-height: normal;
     margin-top: -1px;
@@ -60,32 +60,32 @@ div#footer p{color:#fff;font-family:Lato,"Helvetica Neue",Arial,sans-serif;}
 
 
 /*====== SOCIAL ======*/
-.footer-social-icons {
+div#footer .footer-social-icons {
     float: left;
     height: 100%;
     overflow: hidden;
 }
-.footer-social-icons h4{
+div#footer .footer-social-icons h4{
     text-align: center;
 }
-.footer-social-content{
+div#footer .footer-social-content{
 
 }
-.social-icon {
+div#footer .social-icon {
     color: #fff;
 }
-ul.social-icons {
+div#footer ul.social-icons {
     padding-left: 0;
     position: absolute;
     bottom: 0px;
     margin-bottom: 1%;
 }
-.social-icons li {
+div#footer .social-icons li {
     vertical-align: top;
     display: inline;
     height: 100px;
 }
-.social-icons a {
+div#footer .social-icons a {
     color: #fff;
     text-decoration: none;
 }
@@ -194,15 +194,15 @@ div.footer-social-icons a:hover span {
 }
 
 /*====== CV ======*/
-.cv{
+div#footer .cv{
     float: left;
     height: 100%;
 }
-.cv h4{
+div#footer .cv h4{
     text-align: center;
 }
 
-.footerCV-button{
+div#footer .footerCV-button{
     position: absolute;
     bottom: 0;
     margin-bottom: 1%;
