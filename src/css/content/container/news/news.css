@@ -1,8 +1,0 @@
-.mHome, .mNews, .mContact, .mAbout {
-    transition: 0.5s;
-}
-.mNews-change, .mContact-change, .mAbout-change {
-    background-color: #ddd;
-    color: #333;
-    transition: 0.5s;
-}
