@@ -8,8 +8,8 @@ export default class MainTemplate extends React.Component{
         return(
             <div id="divContenentHaderContentFooter">
             <Header/>
-                {this.props.children}
-            <Footer/>
+                {/*{this.props.children}*/}
+            {/*<Footer/>*/}
             </div>
         );
     }
